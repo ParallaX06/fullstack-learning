@@ -13,7 +13,16 @@
 
 .searchBar {
     display: block;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    line-height: 24px;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+.btn {
+    margin-left: auto;
 }
