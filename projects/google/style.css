@@ -1,0 +1,19 @@
+
+.main {
+    margin-top: 100px;
+}
+
+.googleImage {   /*using the class to make objects   */
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.searchBar {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
