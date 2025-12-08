@@ -1,10 +1,18 @@
 body {
-    margin: 20px;
-    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW0xdXk4bnhkeDUxOXgwYjhwc2oyaXJ2cjY1MXl2YmM2cWNmaXUwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif);
-    background-size: cover;
+    margin: 0;
     text-align: center;
     font-family: Orbitron, sans-serif;
     color: #8CA6CEff;
+}
+
+#title {
+    text-shadow: 0px 0px 4px black;
+}
+
+#hero {
+    background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW0xdXk4bnhkeDUxOXgwYjhwc2oyaXJ2cjY1MXl2YmM2cWNmaXUwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iicDrNGWxHmDrIni6j/giphy.gif);
+    background-size: cover;
+    padding: 10px 0 500px 0;
 }
 
 .btn {
