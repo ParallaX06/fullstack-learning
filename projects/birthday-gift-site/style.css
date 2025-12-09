@@ -3,9 +3,6 @@ body {
     text-align: center;
     font-family: "Happy Monkey", sans-serif;
     color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 h1, h2, h4 {
@@ -18,6 +15,34 @@ h1, h2, h4 {
     border: 6px solid #EFB0C9;
 }
 
-h2, h4 {
+#bday-age {
     background: #EFB0C9;
+    padding: 4px 8px 4px 8px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+#bday-date {
+    background: #EFB0C9;
+    padding: 4px 8px 4px 8px;
+    border-radius: 6px;
+    margin-top: 5px;
+}
+
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-img {
+    margin: 0 auto;
+    background-image: url(img/gift-wrap.jpg);
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
 }
