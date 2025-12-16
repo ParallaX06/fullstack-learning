@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(img/delhi.jpg);
+    background-size: cover;
+    padding: 10px 0px 150px 0px;
+    color: grey;
+}
+
+#title {
+    background-color: white;
+    font-size: 50px;
+    padding: 0px 12px 0px 12px;
+    border-radius: 8px;
+}
+
+#sub-title {
+    background-color: white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 50px auto;
+}
+
+#india-gate {
+    border-radius: 200px;
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+}
+
+#lotus-temple {
+    border-radius: 200px;
+    border: 5px solid black;
+    width: 150px;
+    height: 150px;
+}
+
+#venice-mall {
+    border-radius: 200px;
+    border:  5px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+#name {
+    display: flex;
+}
