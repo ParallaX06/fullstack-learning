@@ -1,3 +1,6 @@
+body {
+    text-align: center
+}
 
 button {
     border: none;
@@ -9,6 +12,10 @@ button {
     margin-bottom: 5px;
     width: 200px;
     border-radius: 5px;
+}
+
+#count-el {
+    font-size: 30px;
 }
 
 #increment-btn {
