@@ -3,6 +3,8 @@ let secondCard = 9
 let sum = firstCard + secondCard
 let blackJack = false
 let isAlive = true
+let message
+message = ""
 
 if (sum === 21) {
     console.log("Yay! You got the BlackJack!🥳")
@@ -14,4 +16,4 @@ if (sum === 21) {
     isAlive = false
 }
 
-console.log(blackJack)
+console.log(message)
